@@ -15,10 +15,52 @@ namespace TicTacToe
 
         static void Main(string[] args)
         {
-
+            bool terminado = false;
             // Dibuja el tablero
             DibujarTablero();
             Console.WriteLine("Jugador 1 = O\nJugador 2 = X");
+
+            do
+            {
+                //turno jugador 1
+                PreguntarPosicion(1); //Envia valor 1 a la funcion
+
+                //Dibujar la casilla despues de preguntar la posicion
+                DibujarTablero();
+
+                //Comprueba el tablero si ha ganado
+                terminado = ComprobarGanador();
+
+                if (terminado == true)
+                {
+                    Console.WriteLine("El Jugador 1 Ha Ganado");
+                }
+                else //Comprueba si hay empate
+                {
+                    terminado = ComprobarEmpate();
+                    if (terminado == true)
+                    {
+                        Console.WriteLine("Es Empate!");
+                    }
+                    // si jugador 1 no gano, empato, da turno a jugador 2
+                    else
+                    {
+                        // Turno del jugador 2
+                        PreguntarPosicion(2);
+                        //Dibuja de Jugador 2 despues de preguntar
+                        DibujarTablero();
+                        //Comprobar si Jugador 2 gano
+                        terminado = ComprobarGanador();
+
+                        if(terminado == true)
+                        {
+                            Console.WriteLine("El Jugador 2 Ha Gando!");
+                        }
+                    }
+                    
+                }
+                //Repetir hasta encontrar 3 iguales en linea
+            } while (terminado == false); // mientras la varibale sea igual a false, se repite el ciclo
 
         } // Cierre de MAIN
         static void DibujarTablero()
@@ -123,6 +165,27 @@ namespace TicTacToe
             }
 
             return ticTacToe;
+        }
+
+        //Devuelve true si hay empate
+        static bool ComprobarEmpate()
+        {
+            bool hayEspacio = false;
+            int fila = 0;
+            int columna = 0;
+
+            for(fila =0; fila < 3; fila++)
+            {
+                for(columna = 0; columna <3; columna++)
+                {
+                    if(tablero[fila,columna]==0)
+                    {
+                        hayEspacio = true; // Si hay casillas vacias se puede seguir jugando
+                    }
+                }
+            }
+
+            return !hayEspacio; //si regresa un true que indica que hay espacio, entonces retorna negacion para que empate no cumpla
         }
     }
 }

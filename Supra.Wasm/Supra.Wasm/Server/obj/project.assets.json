@@ -874,25 +874,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\donma\\.nuget\\packages\\": {},
+    "C:\\Users\\Operations3\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\PRRRGRAMMER\\NetC\\Supra.Wasm\\Supra.Wasm\\Server\\Supra.Wasm.Server.csproj",
+      "projectUniqueName": "C:\\Users\\Operations3\\Documents\\NetC\\Supra.Wasm\\Supra.Wasm\\Server\\Supra.Wasm.Server.csproj",
       "projectName": "Supra.Wasm.Server",
-      "projectPath": "E:\\PRRRGRAMMER\\NetC\\Supra.Wasm\\Supra.Wasm\\Server\\Supra.Wasm.Server.csproj",
-      "packagesPath": "C:\\Users\\donma\\.nuget\\packages\\",
-      "outputPath": "E:\\PRRRGRAMMER\\NetC\\Supra.Wasm\\Supra.Wasm\\Server\\obj\\",
+      "projectPath": "C:\\Users\\Operations3\\Documents\\NetC\\Supra.Wasm\\Supra.Wasm\\Server\\Supra.Wasm.Server.csproj",
+      "packagesPath": "C:\\Users\\Operations3\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Operations3\\Documents\\NetC\\Supra.Wasm\\Supra.Wasm\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\donma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Operations3\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -908,11 +908,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\PRRRGRAMMER\\NetC\\Supra.Wasm\\Supra.Wasm\\Client\\Supra.Wasm.Client.csproj": {
-              "projectPath": "E:\\PRRRGRAMMER\\NetC\\Supra.Wasm\\Supra.Wasm\\Client\\Supra.Wasm.Client.csproj"
+            "C:\\Users\\Operations3\\Documents\\NetC\\Supra.Wasm\\Supra.Wasm\\Client\\Supra.Wasm.Client.csproj": {
+              "projectPath": "C:\\Users\\Operations3\\Documents\\NetC\\Supra.Wasm\\Supra.Wasm\\Client\\Supra.Wasm.Client.csproj"
             },
-            "E:\\PRRRGRAMMER\\NetC\\Supra.Wasm\\Supra.Wasm\\Shared\\Supra.Wasm.Shared.csproj": {
-              "projectPath": "E:\\PRRRGRAMMER\\NetC\\Supra.Wasm\\Supra.Wasm\\Shared\\Supra.Wasm.Shared.csproj"
+            "C:\\Users\\Operations3\\Documents\\NetC\\Supra.Wasm\\Supra.Wasm\\Shared\\Supra.Wasm.Shared.csproj": {
+              "projectPath": "C:\\Users\\Operations3\\Documents\\NetC\\Supra.Wasm\\Supra.Wasm\\Shared\\Supra.Wasm.Shared.csproj"
             }
           }
         }

@@ -1,5 +1,5 @@
 ﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="E:\PRRRGRAMMER\NetC\Supra.Wasm\Supra.Wasm\Client\bin\Debug\net5.0\wwwroot\" />
-  <ContentRoot BasePath="/" Path="E:\PRRRGRAMMER\NetC\Supra.Wasm\Supra.Wasm\Client\obj\Debug\net5.0\scopedcss\bundle\" />
-  <ContentRoot BasePath="/" Path="E:\PRRRGRAMMER\NetC\Supra.Wasm\Supra.Wasm\Client\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Users\Operations3\Documents\NetC\Supra.Wasm\Supra.Wasm\Client\bin\Debug\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Users\Operations3\Documents\NetC\Supra.Wasm\Supra.Wasm\Client\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="/" Path="C:\Users\Operations3\Documents\NetC\Supra.Wasm\Supra.Wasm\Client\wwwroot\" />
 </StaticWebAssets>

@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = Supra.Wasm.Server
-build_property.ProjectDir = E:\PRRRGRAMMER\NetC\Supra.Wasm\Supra.Wasm\Server\
+build_property.ProjectDir = C:\Users\Operations3\Documents\NetC\Supra.Wasm\Supra.Wasm\Server\

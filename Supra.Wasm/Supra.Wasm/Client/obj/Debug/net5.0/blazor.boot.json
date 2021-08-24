@@ -195,13 +195,13 @@
       "mscorlib.dll": "sha256-9AZ7YsJz\/p2gr4E0EQXdHBqwDxoXqtzxhqC6aRsa2K8=",
       "netstandard.dll": "sha256-yOOty6BTX3e57YAEHK5a4nku\/lj0vi7jg\/eQZAjbDQk=",
       "System.Private.CoreLib.dll": "sha256-rraBQp6NevIQiELPVfDFDl5pv9QVJqCiZhB5bkpiZ88=",
-      "Supra.Wasm.Shared.dll": "sha256-9rE0QSGGvJml8eTjdjGyWkPluD5FIXjZmHlRRl+oWBs=",
-      "Supra.Wasm.Client.dll": "sha256-ZymHirNEICgDJCK6KnhNBOxJhxMpVY+E\/dFe7EE+bRg="
+      "Supra.Wasm.Shared.dll": "sha256-0iihAaA0Q0817CAA\/lLzVl4fOIC\/YBfrKhglvIrm+Oc=",
+      "Supra.Wasm.Client.dll": "sha256-RIWyHJK\/phuH0Bnv7SVVpDS2NL9a1R2FMx\/La97OImU="
     },
     "lazyAssembly": null,
     "pdb": {
-      "Supra.Wasm.Shared.pdb": "sha256-Nq5SBErNGY95hkMM7B17unN3HzF9MovZISyrUBGb4nI=",
-      "Supra.Wasm.Client.pdb": "sha256-i1ZagFJvX9lpiSmumEeG4sPx0zvIVM7Mes47sokSqww="
+      "Supra.Wasm.Shared.pdb": "sha256-c78kQ1ZF7LbRgtyg5VPjz7rlFXJvQEDquiyZbl7NNMs=",
+      "Supra.Wasm.Client.pdb": "sha256-jaoIK\/svSWNWTMG4qoSzCCyIjL1KRP1A\/IHiIYY\/y7U="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-L2vkcKzmXJtf+J7db5TbDMBckrgqJ5qc0ZzVIdRlm0I=",

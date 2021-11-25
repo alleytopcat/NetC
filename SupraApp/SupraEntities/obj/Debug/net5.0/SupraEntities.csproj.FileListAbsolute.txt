@@ -1,0 +1,36 @@
+C:\Users\legom\source\repos\SupraAPP\SupraEntities\obj\Debug\net5.0\SupraEntities.csproj.AssemblyReference.cache
+C:\Users\legom\source\repos\SupraAPP\SupraEntities\obj\Debug\net5.0\SupraEntities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\legom\source\repos\SupraAPP\SupraEntities\obj\Debug\net5.0\SupraEntities.AssemblyInfoInputs.cache
+C:\Users\legom\source\repos\SupraAPP\SupraEntities\obj\Debug\net5.0\SupraEntities.AssemblyInfo.cs
+C:\Users\legom\source\repos\SupraAPP\SupraEntities\obj\Debug\net5.0\SupraEntities.csproj.CoreCompileInputs.cache
+C:\Users\legom\source\repos\SupraAPP\SupraEntities\bin\Debug\net5.0\SupraEntities.deps.json
+C:\Users\legom\source\repos\SupraAPP\SupraEntities\bin\Debug\net5.0\SupraEntities.dll
+C:\Users\legom\source\repos\SupraAPP\SupraEntities\bin\Debug\net5.0\ref\SupraEntities.dll
+C:\Users\legom\source\repos\SupraAPP\SupraEntities\bin\Debug\net5.0\SupraEntities.pdb
+C:\Users\legom\source\repos\SupraAPP\SupraEntities\obj\Debug\net5.0\SupraEntities.dll
+C:\Users\legom\source\repos\SupraAPP\SupraEntities\obj\Debug\net5.0\ref\SupraEntities.dll
+C:\Users\legom\source\repos\SupraAPP\SupraEntities\obj\Debug\net5.0\SupraEntities.pdb
+C:\Users\user\source\repos\SupraAPP\SupraEntities\bin\Debug\net5.0\SupraEntities.deps.json
+C:\Users\user\source\repos\SupraAPP\SupraEntities\bin\Debug\net5.0\SupraEntities.dll
+C:\Users\user\source\repos\SupraAPP\SupraEntities\bin\Debug\net5.0\ref\SupraEntities.dll
+C:\Users\user\source\repos\SupraAPP\SupraEntities\bin\Debug\net5.0\SupraEntities.pdb
+C:\Users\user\source\repos\SupraAPP\SupraEntities\obj\Debug\net5.0\SupraEntities.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\SupraAPP\SupraEntities\obj\Debug\net5.0\SupraEntities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\SupraAPP\SupraEntities\obj\Debug\net5.0\SupraEntities.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\SupraAPP\SupraEntities\obj\Debug\net5.0\SupraEntities.AssemblyInfo.cs
+C:\Users\user\source\repos\SupraAPP\SupraEntities\obj\Debug\net5.0\SupraEntities.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\SupraAPP\SupraEntities\obj\Debug\net5.0\SupraEntities.dll
+C:\Users\user\source\repos\SupraAPP\SupraEntities\obj\Debug\net5.0\ref\SupraEntities.dll
+C:\Users\user\source\repos\SupraAPP\SupraEntities\obj\Debug\net5.0\SupraEntities.pdb
+C:\Users\Operations3\Desktop\SupraApp 211106\SupraEntities\bin\Debug\net5.0\SupraEntities.deps.json
+C:\Users\Operations3\Desktop\SupraApp 211106\SupraEntities\bin\Debug\net5.0\SupraEntities.dll
+C:\Users\Operations3\Desktop\SupraApp 211106\SupraEntities\bin\Debug\net5.0\ref\SupraEntities.dll
+C:\Users\Operations3\Desktop\SupraApp 211106\SupraEntities\bin\Debug\net5.0\SupraEntities.pdb
+C:\Users\Operations3\Desktop\SupraApp 211106\SupraEntities\obj\Debug\net5.0\SupraEntities.csproj.AssemblyReference.cache
+C:\Users\Operations3\Desktop\SupraApp 211106\SupraEntities\obj\Debug\net5.0\SupraEntities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Operations3\Desktop\SupraApp 211106\SupraEntities\obj\Debug\net5.0\SupraEntities.AssemblyInfoInputs.cache
+C:\Users\Operations3\Desktop\SupraApp 211106\SupraEntities\obj\Debug\net5.0\SupraEntities.AssemblyInfo.cs
+C:\Users\Operations3\Desktop\SupraApp 211106\SupraEntities\obj\Debug\net5.0\SupraEntities.csproj.CoreCompileInputs.cache
+C:\Users\Operations3\Desktop\SupraApp 211106\SupraEntities\obj\Debug\net5.0\SupraEntities.dll
+C:\Users\Operations3\Desktop\SupraApp 211106\SupraEntities\obj\Debug\net5.0\ref\SupraEntities.dll
+C:\Users\Operations3\Desktop\SupraApp 211106\SupraEntities\obj\Debug\net5.0\SupraEntities.pdb

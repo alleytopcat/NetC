@@ -1,0 +1,191 @@
+﻿@inherits LayoutComponentBase
+@inject IDialogService Dialog
+@using SupraAppWeb.Pages.Dialogs
+
+<MudThemeProvider Theme="_currentTheme" />
+<MudDialogProvider FullWidth="true" MaxWidth="MaxWidth.ExtraSmall" />
+<MudSnackbarProvider />
+
+<MudLayout RightToLeft="@_rightToLeft">
+    <MudAppBar Elevation="25">
+
+        <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())" />
+        @* <MudHidden Breakpoint="Breakpoint.SmAndUp" Invert="true">
+                <MudText Typo="Typo.h5" Class="mudblazor-appbar-brand-text">SupraWeb</MudText>
+            </MudHidden>*@
+        <MudSpacer />
+
+        <MudTooltip Text="Notificaciones">
+            <MudBadge Content="3" Color="Color.Warning" Overlap="true" Class="mx-3 my-4">
+                <MudIcon Icon="@Icons.Material.Filled.Notifications" Color="Color.Default" />
+            </MudBadge>
+        </MudTooltip>
+        <MudTooltip Text="Mensajes">
+            <MudBadge Content="7" Color="Color.Warning" Overlap="true" Class="mx-3 my-4">
+                <MudIcon Icon="@Icons.Material.Filled.Message" Color="Color.Default" />
+            </MudBadge>
+        </MudTooltip>
+        <MudTooltip>
+            <AuthorizeView>
+                <Authorized>
+                    <MudMenu FullWidth="true">
+                        <ActivatorContent>
+                            <MudChip Icon="@Icons.Material.Filled.Person" Color="Color.Success">@context.User.Identity.Name</MudChip>
+                        </ActivatorContent>
+                        <ChildContent>
+                            <MudMenuItem Link="Logout">Cerrar Sesión</MudMenuItem>
+                        </ChildContent>
+                    </MudMenu>
+                </Authorized>
+                <NotAuthorized>
+                    <MudMenu FullWidth="true">
+                        <ActivatorContent>
+                            <MudChip Icon="@Icons.Material.Filled.Person" Link="Login" Color="Color.Error">Iniciar Sesión</MudChip>
+                        </ActivatorContent>
+                    </MudMenu>
+                </NotAuthorized>
+            </AuthorizeView>
+        </MudTooltip>
+        <!--<MudMenu Icon="@Icons.Filled.Settings" Color="Color.Inherit" Dense="true" Direction="Direction.Right" OffsetY="true">
+            <div class="px-2">
+                <MudIconButton Icon="@Icons.Material.Filled.Brightness4" Color="Color.Inherit" OnClick="@((e) => DarkMode())" />-->
+        @*<MudIconButton Icon="@Icons.Material.Filled.FormatTextdirectionRToL" Color="Color.Inherit" OnClick="@((e) => RightToLeftToggle())" />*@
+        <!--</div>
+        </MudMenu>-->
+    </MudAppBar>
+
+
+
+    <MudDrawer @bind-Open=_drawerOpen Elevation="25" Class="mudblazor-appbar-band"  Style="top: 0">
+        <MudButton OnClick="@((e) => OpenDialog(closeButton))">
+            <MudDrawerHeader>
+                <MudAvatar Color="Color.Transparent" Size="Size.Medium" Image="assets/supralogo.jpg" />
+                <MudText Color="Color.Primary" Style="margin-top:10px; margin-left:10px; font-size:18px">Supra-Sistemas</MudText>
+            </MudDrawerHeader>
+        </MudButton>
+        <NavMenu />
+    </MudDrawer>
+    <MudMainContent Class="mudblazor-main-content">
+        <MudContainer MaxWidth="MaxWidth.False" Class="p-4">
+            @Body
+        </MudContainer>
+
+        <MudScrollToTop TopOffset="400">
+            <MudFab Icon="@Icons.Material.Filled.KeyboardArrowUp" Color="Color.Primary" />
+        </MudScrollToTop>
+    </MudMainContent>
+
+</MudLayout>
+
+
+
+
+@code
+{
+
+    private bool _drawerOpen = true;
+    private bool _rightToLeft = false;
+    private string searchValue = string.Empty;
+    DialogOptions closeButton = new DialogOptions() { CloseButton = true };
+
+    private void OpenDialog(DialogOptions options)
+    {
+        Dialog.Show<DialogTest>("Compañias", options);
+    }
+
+
+    private void DrawerToggle()
+    {
+        _drawerOpen = !_drawerOpen;
+    }
+
+
+    protected override void OnInitialized()
+    {
+        _currentTheme = _defaultTheme;
+
+    }
+
+    #region Theme
+
+    private void DarkMode()
+    {
+        if (_currentTheme == _defaultTheme)
+        {
+            _currentTheme = _darkTheme;
+        }
+        else
+        {
+            _currentTheme = _defaultTheme;
+        }
+    }
+
+    private MudTheme _currentTheme = new MudTheme();
+    private readonly MudTheme _defaultTheme =
+        new MudTheme()
+        {
+            Palette = new Palette()
+            {
+
+                //Black = "000000ff",
+                //White = "FC0002",
+                Primary = "#BDBDBF",
+                //Tertiary = "FC0002",
+                //Info = "000000ff",
+                //Success = "000000ff",
+                //Warning = "000000ff",
+                //Error = "000000ff",
+                //Dark = "000000ff",
+                //TextPrimary = "000000ff",
+                //TextSecondary = "000000ff",
+                //TextDisabled = "000000ff",
+                ActionDefault = "343A40",
+                //ActionDisabled = "000000ff",
+                //ActionDisabledBackground = "000000ff",
+                //Background = "0071FE",
+                //BackgroundGrey = "000000ff",
+                //Surface = "000000ff",
+                DrawerBackground = "#343A40",
+                DrawerText = "#FFFFFF",
+                DrawerIcon = "#FFFFFF",
+                AppbarBackground = "#FFFFFF",
+                AppbarText = "343A40",
+                //LinesDefault = "000000ff",
+                //LinesInputs = "000000ff",
+                //Divider = "000000ff",
+                //DividerLight = "000000ff",
+                HoverOpacity = 0.06,
+                //GrayDefault = "000000ff",
+                //GrayLight = "000000ff",
+                //GrayLighter = "000000ff",
+                //GrayDark = "000000ff",
+                //GrayDarker = "000000ff"
+
+            }
+        };
+
+    private readonly MudTheme _darkTheme =
+        new MudTheme()
+        {
+            Palette = new Palette()
+            {
+                Black = "#27272f",
+                Background = "#32333d",
+                BackgroundGrey = "#27272f",
+                Surface = "#373740",
+                DrawerBackground = "#27272f",
+                DrawerText = "rgba(255,255,255, 0.50)",
+                AppbarBackground = "#27272f",
+                AppbarText = "rgba(255,255,255, 0.70)",
+                TextPrimary = "rgba(255,255,255, 0.70)",
+                TextSecondary = "#2196F3",
+                ActionDefault = "#adadb1",
+                ActionDisabled = "rgba(255,255,255, 0.26)",
+                ActionDisabledBackground = "rgba(255,255,255, 0.12)",
+                DrawerIcon = "rgba(255,255,255, 0.50)"
+            }
+        };
+
+    #endregion
+
+}

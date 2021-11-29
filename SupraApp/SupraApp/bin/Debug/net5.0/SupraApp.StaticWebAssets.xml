@@ -1,0 +1,5 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="C:\Users\legom\source\repos\SupraAPP 210914\SupraApp\bin\Debug\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Users\legom\source\repos\SupraAPP 210914\SupraApp\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="_content/MudBlazor" Path="C:\Users\legom\.nuget\packages\mudblazor\5.1.4\build\..\staticwebassets\" />
+</StaticWebAssets>
